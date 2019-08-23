@@ -17,7 +17,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //todo: โคดที่ต้องการให้ทำงานหลังจาก delay ครบ 3 วินาที
-                Intent intent = new Intent(SplashActivity.this , LoginActivity.class);
+                Intent intent = new Intent(SplashActivity.this , MainActivity.class);
                 startActivity(intent);
                 finish();
 
